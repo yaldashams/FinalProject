@@ -1,3 +1,39 @@
 * {
+    padding: 0;
+    margin: 0;
+}
+/*---mobil versjon----*/
+ .hamburger   {
+   position: relative;
+    width: 46px;
+    height: 6px;
+    background-color: green;
+    margin-top: 5px;
+    left: 230px;
+    top: 20px;
+    border-radius: 2px;
+    transition: all .3s ease;
+    opacity: 1;
+ }
+.hamburger: hover {
     
 }
+.dropdown {
+    display: none;
+}
+#menu{
+    position: relative;
+    left: 230px;
+    top: 79px;
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: bold;
+    
+}
+.logo {
+   position: relative;
+    width: 50%;
+    bottom: 60px; 
+    left: 10px;
+}
+
