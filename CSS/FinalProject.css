@@ -88,20 +88,19 @@
     
 }
 
-<<<<<<< HEAD
 .footer {
     position: fixed;
-    width: 100%; 
-    height: 90px;
-    top: 59em; 
+    top: 90%;
     background-color: #266B67;
+    width: 100%; 
+    height: 103px;
 }
 
 .footer p {
     color: white;
     font-family: sans-serif;
-    
 }
+<<<<<<< HEAD
 
 =======
 /*---Home-page----*/
