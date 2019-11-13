@@ -106,9 +106,28 @@
 /*---Home-page----*/
 
 /*---Solution----*/
+.solutionContent {
+    background-color: darkseagreen;
+}
 
 /*---About us----*/
+.aboutContent {
+    position: relative;
+    top: 40px;
+    padding: 15%;
+    background-color: #D6F2C9;
+}
 
+.aboutContent h1 {
+    color: #266B67;
+}
+
+.aboutContent p {
+    margin-top: 10%;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+}
 
 /*---Contact----*/
 input [type=text] {
