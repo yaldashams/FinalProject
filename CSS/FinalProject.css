@@ -32,6 +32,7 @@
     left: 80%;
     top: 30px;
 }
+
 .dropdown-content {
   display: none;
   position: relative;
@@ -42,8 +43,9 @@
   z-index: 1;
 }
 
-.hamburgermeny: hover {
-    background-color: green;
+.hamburgermeny:hover {
+    cursor: pointer;
+    
 }
 
 .dropdown-content a {    
@@ -56,6 +58,9 @@
 .dropdown:hover .dropdown-content {
   display: block;
     background-color: black;
+}
+.dropdown-content a:hover{
+    background-color: darkseagreen;
 }
 
 .logo {
