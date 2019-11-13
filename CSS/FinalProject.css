@@ -3,6 +3,7 @@
     margin: 0;
 }
 /*---mobil versjon----*/
+/*---alle sidene----*/
   .hamburger {
    position: relative;
     width: 46px;
@@ -17,7 +18,7 @@
  }
 
 
-#menu{
+/*#menu{
     position: relative;
     left: 230px;
     top: 79px;
@@ -26,7 +27,7 @@
     font-weight: bold;
     
 }
-
+*/
 .hamburgermeny {
     position: relative;
     left: 80%;
@@ -63,10 +64,19 @@
     background-color: darkseagreen;
 }
 
+.meny p{
+    position: relative;
+    font-family: sans-serif;
+    font-size: 70%;
+    left: 82%;
+    top: 29px;
+     
+}
+
 .logo {
    position: absolute;
     width: 50%;
-    bottom: 83%; 
+    bottom: 81%; 
     left: 10px;
 }
 
