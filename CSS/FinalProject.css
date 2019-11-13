@@ -81,9 +81,11 @@
 }
 
 .boks {
+    position: relative;
+    top: 70px;
     background-color: #478E73;
     width: 100%; 
-    height: 80%;
+    height: 350px;
     
 }
 
