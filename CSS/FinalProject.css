@@ -79,14 +79,64 @@
     bottom: 85%; 
 }
 
-.boks {
+.forsideboks1 {
     position:fixed;
     top: 95px;
     background-color: #478E73;
-    width: 100%; 
-    height: 350px;
+    width: 55%; 
+    height: 35%;
     
 }
+.forsideboks1 p {
+    position: relative;
+    color: white;
+    top: 5%;
+    font-family: sans-serif;
+    font-size: 79%;
+    margin: 5%; 
+    
+}
+
+h2 {
+    position: relative;
+    top: 4%; 
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 200%;
+    
+}
+
+
+.forsideboks2 {
+    position: fixed;
+    top: 50%;
+    background-color:#478E73;
+    width: 55%;
+    height: 35%
+}
+
+
+
+.forsideboks2 p{
+    position: relative;
+    margin: 5%; 
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+    top: 8%;
+    font-size: 79%; 
+}
+
+h1 {
+   position: relative;
+    top: 8%;
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+    
+} 
+
 
 .footer {
     position: fixed;
@@ -99,6 +149,7 @@
 .footer p {
     color: white;
     font-family: sans-serif;
+     
 }
 <<<<<<< HEAD
 
@@ -106,47 +157,8 @@
 /*---Home-page----*/
 
 /*---Solution----*/
-.solutionContent {
-    background-color: darkseagreen;
-}
 
 /*---About us----*/
-.aboutContent {
-    position: relative;
-    top: 40px;
-    padding: 15%;
-    background-color: #D6F2C9;
-}
-
-.aboutContent h1 {
-    color: #266B67;
-}
-
-.aboutContent p {
-    margin-top: 10%;
-    font-size: 20px;
-    font-family: Arial, sans-serif;
-    line-height: 1.5;
-}
 
 /*---Contact----*/
-input [type=text] {
-    width: 80%;
-    padding: 12px;
-    border: 1px solid #7fc487;
-    border-radius: 2px;
-    box-sizing: border-box;
-}
-select {
-    width: 80%;
-    padding: 4px;
-    border: 1px solid #7fc487;
-    border-radius: 2px;
-}
-textarea {
-    width: 80%;
-    padding: 4px;
-    border: 1px solid #7fc487;
-    border-radius: 2px;
-}
-
+>>>>>>> master
