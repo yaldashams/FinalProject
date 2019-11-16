@@ -32,21 +32,22 @@
     position: relative;
     left: 80%;
     top: 4px;
+    width: 40px;
+    height: 40px;
+}
+
+.hamburgermeny:hover {
+    cursor: pointer;
 }
 
 .dropdown-content {
   display: none;
   position: relative;
-  top: 38px;
+  top: 28px;
   background-color: #f9f9f9;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
-}
-
-.hamburgermeny:hover {
-    cursor: pointer;
-    
 }
 
 .dropdown-content a {    
@@ -64,19 +65,29 @@
     background-color: darkseagreen;
 }
 
+
+/* Fixed navbar: https://www.w3schools.com/howto/howto_css_fixed_menu.asp */
+.meny {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: white;
+    height: 15%;
+}
+
 .meny p{
     position: relative;
     font-family: sans-serif;
     font-size: 70%;
     left: 82%;
     top: 55px;
-     
 }
 
 .logo {
    position: absolute;
+    top: 0;
     width: 50%;
-    bottom: 85%; 
 }
 
 .forsideboks1 {
@@ -151,14 +162,88 @@ h1 {
     font-family: sans-serif;
      
 }
+
+p {
+    font-family: Arial, sans-serif;
+}
+
 <<<<<<< HEAD
 
 =======
 /*---Home-page----*/
 
 /*---Solution----*/
+div .solutionContent {
+    display: block;
+}
+
+.solutionContent {
+    position: relative;
+    top: 70px;
+    padding: 15%;
+    background-color: #D6F2C9;
+}
+
+.solutionContent h1 {
+    color: #266B67;
+}
+
+.solutionContent p {
+    margin-top: 10%;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.solutionPhoto1 {
+    height: 30%;
+    width: 100%;
+}
+
+.solutionPhoto2 {
+    height: 30%;
+    width: 100%;
+}
 
 /*---About us----*/
+.aboutContent {
+    position: relative;
+    top: 70px;
+    padding: 15%;
+    background-color: #D6F2C9;
+}
+
+.aboutContent h1 {
+    color: #266B67;
+}
+
+.aboutContent p {
+    margin-top: 10%;
+    font-size: 20px;
+    line-height: 1.5;
+}
 
 /*---Contact----*/
->>>>>>> master
+.contactBox {
+    position: relative;
+    top: 100px;
+}
+
+input [type=text] {
+    width: 80%;
+    padding: 12px;
+    border: 1px solid #7fc487;
+    border-radius: 2px;
+    box-sizing: border-box;
+}
+select {
+    width: 80%;
+    padding: 4px;
+    border: 1px solid #7fc487;
+    border-radius: 2px;
+}
+textarea {
+    width: 80%;
+    padding: 4px;
+    border: 1px solid #7fc487;
+    border-radius: 2px;
+}
